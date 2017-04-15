@@ -1,0 +1,31 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <!-- �汾��4.0.0 -->
+  <modelVersion>4.0.0</modelVersion>
+  <!-- ��֯���ƣ���ʱʹ�� ��֯����+��Ŀ���� ��Ϊ��֯���� -->
+  <!-- ��֯���ƣ�ʵ������ ���շ���·���淶���ã�ͨ���Թ�����Ϊ���ƣ�eg: junit spring -->
+  <groupId>com.itheima.maven</groupId>
+  <!-- ��Ŀ���� -->
+  <artifactId>HelloMaven</artifactId>
+  <!-- ��ǰ��Ŀ�汾�ţ�ͬһ����Ŀ���������п��Է�������汾���˴���ʾ0.0.1�� -->
+  <!-- ��ǰ��Ŀ�汾�ţ�ÿ�����̷�������Է�������汾������ʱ��ȡ��ͬ�İ汾��ʹ�ò�ͬ�İ汾�� -->
+  <version>0.0.1</version>
+  <!-- ���ƣ���ʡ�� -->
+  <name>Hello</name>
+  
+  <!-- ������ϵ -->
+	<dependencies>
+		<!-- �������� -->
+		<dependency>
+			<!-- ������֯���� -->
+			<groupId>junit</groupId>
+			<!-- ������Ŀ���� -->
+			<artifactId>junit</artifactId>
+			<!-- �����汾���� -->
+			<version>4.9</version>
+			<!-- ������Χ��test�������������� -->
+			<scope>test</scope>
+		</dependency>		
+		
+	</dependencies>
+</project>
+
